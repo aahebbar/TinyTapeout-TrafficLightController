@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Implements a Finite State Machine (FSM) that governs the traffic light in a 4 way intersection
 
 ## How to test
 
-Explain how to use your project
+Used in a 4-way road intersection and used to control the traffic flow 
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Clock can be generated through an extrnal oscillator and reset can be asserted or deasserted through a slide switch. The outputs can drive a set of 8 LEDs where 2 LEDs will represent the colour of the traffic light
