@@ -1,11 +1,11 @@
 # Tiny Tapeout project information
 project:
-  title:        ""      # Project title
-  author:       ""      # Your name
-  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  title:        "trafficLightController"      # Project title
+  author:       "User_A2H1"      # Your name
+  discord:      "None_noname"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "4-way traffic light controller"      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
-  clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
+  clock_hz:     100000       # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
@@ -23,14 +23,14 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[0]: "signal[0]"
+  ui[1]: "signal[1]"
+  ui[2]: "signal[2]"
+  ui[3]: "signal[3]"
+  ui[4]: "signal[4]"
+  ui[5]: "signal[5]"
+  ui[6]: "signal[6]"
+  ui[7]: "signal[7]"
 
   # Outputs
   uo[0]: ""
